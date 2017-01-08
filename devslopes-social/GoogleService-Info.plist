@@ -32,6 +32,8 @@
 	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:282085236428:ios:31ddf434fd26c14b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAWu5vJutF8-KWX5S09SFxOHt1-anAlpaU</string>
 	<key>DATABASE_URL</key>
 	<string>https://devslopes-social-41b3e.firebaseio.com</string>
 </dict>
