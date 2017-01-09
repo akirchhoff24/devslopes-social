@@ -17,6 +17,7 @@
 		8D199F481E22D38A00043400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D199F471E22D38A00043400 /* Assets.xcassets */; };
 		8D199F4B1E22D38A00043400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D199F491E22D38A00043400 /* LaunchScreen.storyboard */; };
 		8D199F531E22D39900043400 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D199F521E22D39900043400 /* GoogleService-Info.plist */; };
+		8D540E641E23069B003BD612 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D540E631E23069B003BD612 /* FeedVC.swift */; };
 		8D9CA1851E22E59B00D87450 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9CA1841E22E59A00D87450 /* FancyButton.swift */; };
 		C43A303052BD66F841F3CCBA /* Pods_devslopes_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EFCC5F0393A2181CE738A1 /* Pods_devslopes_social.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		8D199F4A1E22D38A00043400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D199F4C1E22D38A00043400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D199F521E22D39900043400 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D540E631E23069B003BD612 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		8D9CA1841E22E59A00D87450 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +73,6 @@
 		8D057D1C1E22D5DA0088A853 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8D199F421E22D38A00043400 /* SignInVC.swift */,
 				8D057D1E1E22E1460088A853 /* FancyView.swift */,
 				8D057D231E22E2F20088A853 /* RoundBtn.swift */,
 				8D057D251E22E3FC0088A853 /* FancyField.swift */,
@@ -83,6 +84,8 @@
 		8D057D1D1E22D5DE0088A853 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8D199F421E22D38A00043400 /* SignInVC.swift */,
+				8D540E631E23069B003BD612 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 					8D199F3C1E22D38A00043400 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V826Y7SGU7;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -267,6 +271,7 @@
 				8D199F431E22D38A00043400 /* SignInVC.swift in Sources */,
 				8D057D241E22E2F20088A853 /* RoundBtn.swift in Sources */,
 				8D9CA1851E22E59B00D87450 /* FancyButton.swift in Sources */,
+				8D540E641E23069B003BD612 /* FeedVC.swift in Sources */,
 				8D199F411E22D38A00043400 /* AppDelegate.swift in Sources */,
 				8D057D1F1E22E1460088A853 /* FancyView.swift in Sources */,
 				8D057D221E22E1B90088A853 /* Constants.swift in Sources */,
